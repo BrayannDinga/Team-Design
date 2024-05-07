@@ -1,0 +1,169 @@
+body{
+    font-family:Arial;     
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+header{
+    height: 5vh;
+    background-color: #035186;
+    padding-top: 10px;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    margin-left: 20px;
+}
+header nav{
+    float: right;
+    margin-right: 50px ;
+}
+header nav a:hover{
+    color: #FFE856;
+}
+.search{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+#text{
+    border-radius: 50px;
+    padding: 10px;
+    width: 500px;
+    background-color: rgb(226, 226, 226);
+    border: none;
+    
+}
+.btn{
+    border-radius: 50px;
+    margin-left: 20px;
+    width: 130px;
+    border: none;
+    background-color: #1B92BF;
+    color: white;
+}
+.box1{
+    display: grid;
+    width: 200px;
+    height: 240px;
+    background-color: rgb(63, 63, 63);
+    font-size: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+
+}
+.content{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.image{
+    border-radius: 10px;
+    
+}
+.image:hover{
+    transform: scale(1.07);
+}
+.main{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr ;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-bottom: 100px;
+}
+.main .box1{
+    margin-bottom: 100px;
+}
+.footercontain{
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr  0.05fr 0.1fr;
+    grid-template-areas: 
+    "contact more email"
+    "socials socials socials"
+    "social social social";
+}
+.socials{
+    text-align: center;
+    grid-area: socials;
+    padding-top: 100px;
+}
+.contact{
+    grid-area: contact;
+}
+.more{
+grid-area: more;
+text-align: center;
+}
+.email{
+grid-area: email;
+text-align: right;
+}
+.social{
+grid-area: social;
+justify-content: center;
+place-items: center;
+display: flex;
+margin-left: 10px;
+
+}
+.social img{
+    padding-top: 30px;
+    padding-right: 40px;
+    margin-left: 10px;
+}
+.home{
+    background-image: url(image/Group\ 108.png);
+    background-size: cover;
+    
+    height: 100vh;
+    
+}
+.student{
+    float: right;
+    display: flex;
+    width: 600px;
+    height: 600px;
+}
+.homeinfo{
+    color: rgba(255, 255, 255, 0.863);
+    padding: 80px 50px;
+    width: 650px;
+    height: 450px;
+   
+    float: left;    
+}
+.loginbtn , .registerbtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 0px;
+}
+.registerbtn{
+    margin-left: 20px;
+    background-color: #1B92BF;
+}
+.loginbtn{
+    background-color: #F3A621;
+}
+.loginbtn:hover{
+    background-color: #f5c26b;
+    transform: scale(1.08);
+}
+.registerbtn:hover{
+    background-color: #43c4f3;
+    transform: scale(1.08);
+}
+.student img:hover{
+    transform: rotate(10deg );
+    animation-duration: 3s;
+    transition-duration:3s ;
+}
